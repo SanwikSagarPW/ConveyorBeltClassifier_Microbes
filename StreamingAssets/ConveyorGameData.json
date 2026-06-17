@@ -1,13 +1,13 @@
 {
   "game_template": "Conveyor Classifier",
-  "topic": "Acids, Bases, and Salts",
+  "topic": "Microorganisms",
   "total_levels": 3,
   "max_total_xp": 200,
   
   "levels": [
     {
       "level": 1,
-      "objective_text": "Sort substances into Acid, Base, or Neutral beakers!",
+      "objective_text": "Sort microbes into Harmful or Friendly categories!",
       "conveyor_speed_modifier": 0.5,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 6,
@@ -180,7 +180,7 @@
 
     {
       "level": 3,
-      "objective_text": "Expert sorting: Identify weak and strong acids/bases by image alone!",
+      "objective_text": "Expert sorting: Identify microbe roles by image alone!",
       "conveyor_speed_modifier": 0.5,
       "total_items_in_level": 10,
       "item_spawn_interval_seconds": 9,
@@ -200,7 +200,7 @@
         {
           "id": "cough",
           "display_text": "",
-          "correct_category_name": "CAUSES-DISEAS",
+          "correct_category_name": "CAUSES-DISEASE",
           "presentation_mode": "IMAGE_ONLY"
         },
         {
